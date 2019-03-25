@@ -71,7 +71,7 @@ def printOptions(state):
     print("  [laugh] with your friend, ")
     print("  or [help] the victim?\n")
   elif state == "help":
-    print(" ")
+    print("The victim thanks you and aks if you want to sit with them at lunch tomorrow.")
   else:
     print("You've fallen into the ether... perhaps you spaced out?")
 
