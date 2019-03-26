@@ -98,9 +98,9 @@ def changeState(state1,state2):
   elif state1 == "trouble":         #trouble
     if state2 == "guilt":
       newstate = "guilt"
-    elif state2 == "keep laughing": #keep laughing
-      newstate = "keep laughing"
-  elif state1 == "keep laughing":
+    elif state2 == "keep laughing": 
+      newstate = "trouble"
+  elif state1 == "keep laughing":   #keep laughing
     newstate = "resolved"
   else:
     print("You regain your breath; perhaps you spaced out?")
